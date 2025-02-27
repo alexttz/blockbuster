@@ -21,7 +21,7 @@ public class FilmeService {
     }
 
     public Optional<Filme> buscarPorId(Long id){
-        return filmeRepository.findBy(id);
+        return filmeRepository.findById(id);
     }
 
     public Filme salvar(Filme filme){
@@ -29,7 +29,7 @@ public class FilmeService {
     }
 
     public void deletar(Long id){
-        filmeRepository.deleteBy(id);
+        filmeRepository.deleteById(id);
     }
 
 }

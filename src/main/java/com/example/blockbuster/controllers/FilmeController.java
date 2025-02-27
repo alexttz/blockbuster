@@ -36,7 +36,7 @@ public class FilmeController {
         return filmeService.salvar(filme);
     }
 
-    @PuttMapping("/{id}")
+    @PutMapping("/{id}")
 
     public ResponseEntity<Filme> atualizarFilme(@PathVariable Long id, @RequestBody Filme
             novoFilme) {

@@ -1,11 +1,11 @@
 package com.example.blockbuster.models;
 
-import jarkata.persistence;
+import jakarta.persistence.*;
 
 import javax.annotation.processing.Generated;
 
 @Entity
-@Table (name="Filmes")
+@Table(name="Filmes")
 
 public class Filme {
     @Id
