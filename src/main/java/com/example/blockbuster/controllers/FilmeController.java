@@ -1,7 +1,7 @@
 package com.example.blockbuster.controllers;
 
-import com.blockbuster.models.Filme;
-import com.blockbuster.services.FilmeService;
+import com.example.blockbuster.models.Filme;
+import com.example.blockbuster.services.FilmeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package com.example.blockbuster.services;
 
-import com.blockbuster.models.Filme;
-import com.blockbuster.repositories.FilmeRepository;
+import com.example.blockbuster.models.Filme;
+import com.example.blockbuster.repositories.FilmeRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
